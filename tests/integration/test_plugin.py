@@ -23,7 +23,7 @@ class TestPagerDutyIntegration:
 
     @pytest.mark.usefixtures("pagerduty_fixture")
     @pytest.mark.pagerduty_trigger_incident(
-        service_id="AAW9VZA", urgency="high", assignee_ids=["AA169AC"]
+        service_id="AAW9VZA", urgency="high", assignee_id="AA169AC"
     )
     def test_expect_triggered(self):
         """Test case that fails and should trigger a PagerDuty incident.
