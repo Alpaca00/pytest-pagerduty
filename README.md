@@ -109,19 +109,22 @@ def test_critical_flow():
 
 When a test fails, an incident is created with the following information:
 
-- Summary: Test failure message, including the test name.
+- `Summary` - Test failure message, including the test name.
 
-- Details: Test docstring and assertion error traceback.
+- `Details` - Test docstring and assertion error traceback.
 
-- Service: Linked to the specified PagerDuty service.
+- `Service` - Linked to the specified PagerDuty service.
 
-- Urgency, Escalation Policy: Configurable via markers.
+- `Urgency, Escalation Policy` - Configurable via markers.
 
 
 ### MIT License
 
 Distributed under the MIT License. See [LICENSE](LICENSE.md) for more information.
 
+### Warranty
+
+**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
 
 ### Useful links
 
